@@ -4,7 +4,7 @@ WORKDIR /usr/app/
 
 COPY . .
 
-RUN npm update
+RUN npm install
 
 ENV NODE_ENV=dev
 
