@@ -6,6 +6,8 @@ COPY . .
 
 RUN npm update
 
+ENV NODE_ENV=dev
+
 RUN pwd
 
 CMD [ "npm","run", "start" ]
