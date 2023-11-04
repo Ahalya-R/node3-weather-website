@@ -1,6 +1,5 @@
 const path = require('path')
 const express = require('express')
-const config = require('config')
 const hbs = require('hbs')
 const { error } = require('console')
 const geocode = require('./utils/geocode')
